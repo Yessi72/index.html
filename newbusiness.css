@@ -6,20 +6,16 @@ body {
 
 header {
   display: flex;
-  padding: 2%;
+  padding: 20px;
   justify-content: space-between;
   background-color: #ffffff;
+  align-items: center;
 }
-.logo {
-  height: 100%;
-  width: 80%;
 
-}
 
 button {
   padding: 2%;
-  margin: 0 0% 0 -10%;
-  width: 10%;
+  margin: 0;
   height: 80px;
   font-weight: 600;
   font-size: 1em;
@@ -35,12 +31,12 @@ button {
 .text {
   display: flex;
   color: rgb(0, 0, 0);
-  margin-top: 10%;
-  justify-content: left;
-  font-size: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+  font-size: 25px;
+  font-family: "Dancing Script";
+  font-weight: bold;
 } 
+
+
 
 .link:hover {
   color: rgb(142, 142, 142);
@@ -49,17 +45,17 @@ button {
   list-style: none;
   display: flex;
   cursor: pointer;
-  gap: 25%;
-  text-align: center; 
-  margin-top: 10%;
+  gap: 70px;
+  justify-content: right;
   font-size: large; 
+ margin-left: 200px;
 
 }
 
 .layout {
-
+align-items: center;
   display: flex;
-  gap: 2%;
+gap: 20px;
   
 }
 .section {
@@ -117,7 +113,7 @@ button {
 
 .new button {
   padding: 35px 50px;
-  margin: 0 70px 0 50px;
+  margin: 0 50px 0 30px;
   text-align: center;
 justify-content: center;
   display: flex;
@@ -167,6 +163,7 @@ justify-content: center;
 .bottomtext {
   text-align: center;
   margin-top: -3%;
+  font-size: 20px;
 }
 
 .button2 {
@@ -227,7 +224,7 @@ input[type=text]:focus,input[type=password]:focus{
 
 .cancelbtn{
 	padding: 14px 20px;
-	background-color: #8a436a;
+	background-color: #914c66;
   padding: 14px 20px;
 	margin: 0px 0;
 	border: none;
@@ -300,6 +297,6 @@ width: 100%;
 }
 
 footer {
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 10%;
 }
