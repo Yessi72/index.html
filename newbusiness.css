@@ -224,12 +224,10 @@ input[type=text]:focus,input[type=password]:focus{
 	cursor: pointer;width: 100%;
 	opacity: 0.9;
 }
-button:hover{
-	opacity: 1;
-}
+
 .cancelbtn{
 	padding: 14px 20px;
-	background-color: #f44336;
+	background-color: #8a436a;
   padding: 14px 20px;
 	margin: 0px 0;
 	border: none;
@@ -271,16 +269,22 @@ hr{
 }
 .close{
 	position: absolute;
-	right: 35px;
-	top: 15px;
-	font-size: 40px;
+	right: 155px;
+	top: 130px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #f1f1f1;
 }
-.close:hover,.close:focus{
-	color: #f44336;
-	cursor: pointer;
+
+span {
+  border-radius:2em;
+  background:#212121;
+  color:#fff;
+  font-size:20px;
+  padding:.4em .7em;
+  cursor:pointer;
 }
+
 
 .side1, .side2 {
   flex: 1;
