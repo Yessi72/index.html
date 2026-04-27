@@ -1,10 +1,8 @@
-
 <head>
   <title>Sweet Stop Cafe</title>
   <link rel="stylesheet" type="text/css" href="newbusiness.css">
   <script src="newbuisness.js" defer></script>
 </head>
-
 <body>
 <header>
    <div class="layout">
@@ -21,11 +19,13 @@
         <button type="button" class="mine" onclick="document.getElementById('id01').style.display='block'" style="width: auto;">Log in</button>
 
 	<div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close">X</span> 
+
 		<form class="modal-content">
 			
 				<div class="side1">
         <h2>Sign Up</h2>
-				<p>hi</p><hr>
+				<p></p><hr>
 
         Email:
         <br>
@@ -36,7 +36,7 @@
    </div>
    <div class="side2">
      <h2>Log in</h2>
-     	<p>hi</p><hr>
+     	<p></p><hr>
         User name:
         <br>
         <input type="text" name="username">
@@ -46,11 +46,9 @@
         <input type="password" name="psw">
         </div>
     
-
-				
 				<div class="clearfix">
-					<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-					<button type="submit" class="signupbtn">Sign Up</button>
+				<button class="cancelbtn"> Log in</button>
+				<button class="signupbtn">Sign Up</button>
 				</div>
 			</form>
 		
@@ -116,7 +114,6 @@
 </div>
 
 
-
 <div class="section3">
   <div class="bottomimage">
   <img src="tuttifrtti.png" alt="Lavander Banana" height="300">
@@ -141,3 +138,4 @@
 <footer>
 </footer>
 </body>
+
